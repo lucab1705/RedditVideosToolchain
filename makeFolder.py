@@ -1,0 +1,10 @@
+import os
+os.mkdir('./in')
+os.mkdir('./in/bgMusic')
+os.mkdir('./in/text')
+os.mkdir('./in/unpol_text')
+os.mkdir('./in/videos')
+os.mkdir('./out')
+os.mkdir('./out/audio')
+os.mkdir('./out/subs')
+os.mkdir('./out/toPublish')
