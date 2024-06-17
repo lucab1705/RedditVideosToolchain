@@ -1,0 +1,5 @@
+praw>=7.7.1
+moviepy>=1.0.3
+ollama>=0.2.1
+ffmpeg-python
+openai-whisper

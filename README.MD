@@ -1,8 +1,11 @@
 # Reddit automatized video creation toolchain
 
 ## Requirements:
+
  - Python 3.9+
  - [ollama and llama3 model](https://ollama.com/)
+ - [ffmpeg](https://ffmpeg.org/)
+ - [imagemagick](https://imagemagick.org/index.php)
  - run `pip install -r requirements.txt` to install all the necessary python libraries
 
 ## Pre-Usage
