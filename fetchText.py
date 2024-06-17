@@ -1,6 +1,7 @@
 import praw
 import json
 import uuid
+from secret import CLIENT_ID, CLIENT_SECRET
 
 def load_save_post(url):
     text = reddit.submission(url = url)
@@ -12,8 +13,8 @@ def load_save_post(url):
     return
 
 reddit = praw.Reddit(
-    client_id="QC3ZmYb1yF1Xnf-Gx1S1lw",
-    client_secret="73tPhleo6IQUoatvmDLK9k9oBpmMyg",
+    client_id=CLIENT_ID,
+    client_secret=CLIENT_SECRET,
     user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0",
 )
 
